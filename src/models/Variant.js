@@ -1,5 +1,5 @@
+// import mongoose from 'mongoose';
 const mongoose = require('mongoose');
-
 const variantSchema = new mongoose.Schema({
   name: {
     type: String,
@@ -21,4 +21,4 @@ const variantSchema = new mongoose.Schema({
 
 const Variant = mongoose.model('Variant', variantSchema);
 
-module.exports = Variant;
+module.exports =  Variant;

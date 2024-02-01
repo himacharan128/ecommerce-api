@@ -4,9 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha src/tests/**/*.js --exit"
+    "test": "mocha --require esm src/tests/**/*.js --timeout 5000 --exit"
   },
-  
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -18,6 +17,7 @@
   },
   "devDependencies": {
     "chai": "^5.0.3",
+    "esm": "^3.2.25",
     "mocha": "^10.2.0",
     "supertest": "^6.3.4"
   }
