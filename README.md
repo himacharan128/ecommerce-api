@@ -9,7 +9,7 @@ Follow the steps below to run the project locally:
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/ecommerce-api.git
+git clone https://github.com/himacharan128/ecommerce-api.git
 ```
 2. Install dependencies:
 ```bash
